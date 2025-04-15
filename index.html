@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
-        // Check if the user has already been redirected
+        // Check if person already redirect
         if (!sessionStorage.getItem('hasRedirected')) {
             // Set the flag in sessionStorage
             sessionStorage.setItem('hasRedirected', 'true');
@@ -12,10 +12,10 @@
             window.location.href = "index.html";
         }
     </script>
-    <meta property="og:title" content="Los Angeles Roleplay" /> <!-- Title of your website -->
-    <meta property="og:description" content="Los Angeles Roleplay offers a dynamic and engaging roleplaying experience set in a detailed and enjoyable environment. Join the server and make several new friends!" /> <!-- Short description -->
-    <meta property="og:image" content="https://ibb.co/0fY4QVy" /> <!-- URL of the image -->
-    <meta property="og:url" content="https://www.losangelesroleplay.com" /> <!-- URL of your website -->
+    <meta property="og:title" content="Los Angeles Roleplay" />
+    <meta property="og:description" content="Los Angeles Roleplay offers a dynamic and engaging roleplaying experience set in a detailed and enjoyable environment. Join the server and make several new friends!" /> <!-- description or something -->
+    <meta property="og:image" content="https://ibb.co/0fY4QVy" /> <!-- link of wbesite image thing -->
+    <meta property="og:url" content="https://www.losangelesroleplay.com" /> <!-- link of wwebsite -->
     <link rel="icon" href="ICON.ico" type="image/x-icon">
     <title>Los Angeles Roleplay</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -23,15 +23,15 @@
     <style>
         /* CSS for smooth scrolling */
         html {
-            scroll-behavior: smooth; /* Enables smooth scrolling for the whole document */
+            scroll-behavior: smooth; /* Enables smooth scrolling for the whole weabstite */
         }
 
-        /* Optional: To add some style for sections during scrolling */
+        /*add style for sections during scrolling */
         .info-section {
             padding: 20px;
             margin: 20px 0;
-            border: 1px solid #ccc; /* Optional: Add a border to visually separate sections */
-            border-radius: 8px; /* Optional: Rounded corners for sections */
+            border: 1px solid #ccc; /*add a border to visually separate sections */
+            border-radius: 8px; /* Rounded corners for sections */
             transition: background-color 0.5s; /* Smooth transition for background color */
         }
     </style>
@@ -121,7 +121,7 @@
         }
 
         function highlightSection(section) {
-            section.style.transition = 'background-color 0.3s'; // Shorter highlight duration
+            section.style.transition = 'background-color 0.3s'; // Shorter highlight leangth
             section.style.backgroundColor = '#510997'; // Highlight color (yellow)
             setTimeout(() => {
                 section.style.backgroundColor = ''; // Remove highlight
